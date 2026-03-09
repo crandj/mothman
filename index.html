@@ -55,7 +55,7 @@ a:active {
 
 p {
   font-family: 'Georgia';
-  font-size: 75px;
+  font-size: clamp(1rem, calc(1rem + 2vw), 3rem);
   font-weight: bolder; /* For fixed size control */
   color: white;
   margin-left: 40px;
@@ -64,7 +64,7 @@ p {
 /* A specific paragraph can have a different, relative size using a class */
 .par-small {
   font-family: 'Georgia';
-  font-size: 20px; /* Using a keyword */
+  font-size: 18px; /* Using a keyword */
   font-weight: normal;
   color: white; 
   margin-left: 40px;
@@ -73,7 +73,7 @@ p {
 /* Another paragraph using 'em' relative to its parent container */
 .caption {
   font-family: 'Georgia';
-  font-size: 30px;
+  font-size: 18px;
   font-weight: lighter;
   font-style: italic;
   color: white; 
@@ -86,7 +86,7 @@ p {
       
       .page:nth-child(2) {
         background: hsl(0, 0%, 100%);
-        background-size: 50% auto;
+        background-size: 75% auto;
         background-repeat: no-repeat; /* Prevents the image from tiling */
         background-position: center;
         background-image: url('./Images/01.jpg'); 
@@ -110,18 +110,23 @@ p {
 /* Another paragraph using 'em' relative to its parent container */
 .caption {
   font-family: 'Georgia';
-  font-size: 30px;
+  font-size: clamp(0.5rem, calc(1rem + 2vw), 1rem);
   font-weight: lighter;
   font-style: italic;
   color: rgb(0, 0, 0); 
   margin-left: 40px;
   margin-right: 40px;
+  background-color: #f00; /* Red background color */
+    padding: 10px; /* Adds space between the text and the box's edges */
+    color: white; /* Ensures the text is readable on the dark background */
+    border-radius: 5px; /* Optional: adds rounded corners to the box */
+    display: inline-block;
 }
       }
 
       .page:nth-child(3) {
         background: hsl(0, 0%, 100%);
-        background-size: 50% auto;
+        background-size: 75% auto;
         background-repeat: no-repeat; /* Prevents the image from tiling */
         background-position: center;
         background-image: url('./Images/02.jpg'); 
@@ -145,18 +150,23 @@ p {
 /* Another paragraph using 'em' relative to its parent container */
 .caption {
   font-family: 'Georgia';
-  font-size: 30px;
+  font-size: clamp(0.5rem, calc(1rem + 2vw), 1rem);
   font-weight: lighter;
   font-style: italic;
   color: rgb(0, 0, 0); 
   margin-left: 40px;
   margin-right: 40px;
+  background-color: #f00; /* Red background color */
+    padding: 10px; /* Adds space between the text and the box's edges */
+    color: white; /* Ensures the text is readable on the dark background */
+    border-radius: 5px; /* Optional: adds rounded corners to the box */
+    display: inline-block;
 }
       }
 
       .page:nth-child(4) {
          background: hsl(0, 0%, 100%);
-        background-size: 50% auto;
+        background-size: 75% auto;
         background-repeat: no-repeat; /* Prevents the image from tiling */
         background-position: center;
         background-image: url('./Images/04.jpg'); 
@@ -180,18 +190,23 @@ p {
 /* Another paragraph using 'em' relative to its parent container */
 .caption {
   font-family: 'Georgia';
-  font-size: 30px;
+  font-size: clamp(0.5rem, calc(1rem + 2vw), 1rem);
   font-weight: lighter;
   font-style: italic;
   color: rgb(0, 0, 0); 
   margin-left: 40px;
   margin-right: 40px;
+  background-color: #f00; /* Red background color */
+    padding: 10px; /* Adds space between the text and the box's edges */
+    color: white; /* Ensures the text is readable on the dark background */
+    border-radius: 5px; /* Optional: adds rounded corners to the box */
+    display: inline-block;
 }
       }
 
       .page:nth-child(5) {
         background: hsl(0, 0%, 100%);
-        background-size: 50% auto;
+        background-size: 75% auto;
         background-repeat: no-repeat; /* Prevents the image from tiling */
         background-position: center;
         background-image: url('./Images/03.jpg'); 
@@ -215,18 +230,23 @@ p {
 /* Another paragraph using 'em' relative to its parent container */
 .caption {
   font-family: 'Georgia';
-  font-size: 30px;
+  font-size: clamp(0.5rem, calc(1rem + 2vw), 1rem);
   font-weight: lighter;
   font-style: italic;
   color: rgb(0, 0, 0); 
   margin-left: 40px;
   margin-right: 40px;
+  background-color: #f00; /* Red background color */
+    padding: 10px; /* Adds space between the text and the box's edges */
+    color: white; /* Ensures the text is readable on the dark background */
+    border-radius: 5px; /* Optional: adds rounded corners to the box */
+    display: inline-block;
 }
       }
 
       .page:nth-child(6) {
         background: hsl(0, 0%, 100%);
-        background-size: 50% auto;
+        background-size: 75% auto;
         background-repeat: no-repeat; /* Prevents the image from tiling */
         background-position: center;
         background-image: url('./Images/05.jpg'); 
@@ -250,19 +270,24 @@ p {
 /* Another paragraph using 'em' relative to its parent container */
 .caption {
   font-family: 'Georgia';
-  font-size: 30px;
+  font-size: clamp(0.5rem, calc(1rem + 2vw), 1rem);
   font-weight: lighter;
   font-style: italic;
   color: rgb(0, 0, 0); 
   margin-left: 40px;
   margin-right: 40px;
+  background-color: #f00; /* Red background color */
+    padding: 10px; /* Adds space between the text and the box's edges */
+    color: white; /* Ensures the text is readable on the dark background */
+    border-radius: 5px; /* Optional: adds rounded corners to the box */
+    display: inline-block;
 }
       }
 
 
       .page:nth-child(7) {
         background: hsl(0, 0%, 100%);
-        background-size: 50% auto;
+        background-size: 75% auto;
         background-repeat: no-repeat; /* Prevents the image from tiling */
         background-position: center;
         background-image: url('./Images/06.jpg'); 
@@ -286,12 +311,17 @@ p {
 /* Another paragraph using 'em' relative to its parent container */
 .caption {
   font-family: 'Georgia';
-  font-size: 30px;
+  font-size: clamp(0.5rem, calc(1rem + 2vw), 1rem);
   font-weight: lighter;
   font-style: italic;
   color: rgb(0, 0, 0); 
   margin-left: 40px;
   margin-right: 40px;
+  background-color: #f00; /* Red background color */
+    padding: 10px; /* Adds space between the text and the box's edges */
+    color: white; /* Ensures the text is readable on the dark background */
+    border-radius: 5px; /* Optional: adds rounded corners to the box */
+    display: inline-block;
 }
       }
 
@@ -304,26 +334,26 @@ p {
     <main>
       <div class="container">
         <div class="page"><p><br><br><br>Mothman as the Angel of History<br></p><br><br><br><p class="par-small"><b>Text Attribution:</b> "Theses on the Philosophy of History" or <a href="https://www.sfu.ca/~andrewf/CONCEPT2.html" target="_blank" rel="noopener noreferrer">"On the Concept of History"</a> by Walter Benjamin, 1940
-           <br><br><b>Cover Image:</b> Black Diamond Mines Rose Hill Cemetery, Antioch, CA, J. Lee Crandall (2024) <br><b>Illustrations:</b> Linocut carving & prints, J. Lee Crandall (March 2026)<br><br><br><br><b>**Instructions:</b> Scroll Up and Down with the Mouse to Navigate the Story**</p>
+           <br><br><b>Cover Image:</b> Black Diamond Mines Rose Hill Cemetery, Antioch, CA, J. Lee Crandall (2024) <br><b>Illustrations:</b> Linocut carving & prints, J. Lee Crandall (March 2026)<br><br><b>**Instructions:</b> Scroll Up and Down with the Mouse to Navigate the Story**</p>
         <br>     
         </div>
 
-        <div class="page"><br><br><br><br><p class="caption">This is how one pictures the angel of history. His face is turned toward the past.</p><br>
+        <div class="page"><br><br><br><p class="caption">This is how one pictures the angel of history. His face is turned toward the past.</p><br>
         </div>
 
-        <div class="page"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><p class="caption">Where we perceive a chain of events, he sees one single catastrophe which keeps piling wreckage and hurls it in front of his feet.</p>
+        <div class="page"><br><br><br><p class="caption">Where we perceive a chain of events, he sees one single catastrophe which keeps piling wreckage and hurls it in front of his feet.</p>
         </div>
 
-        <div class="page"><br><br><br><br><br><br><p class="caption">The angel would like to stay, awaken the dead, and make whole what has been smashed.</p>  
+        <div class="page"><br><br><br><p class="caption">The angel would like to stay, awaken the dead, and make whole what has been smashed.</p>  
         </div>
 
-        <div class="page"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><p class="caption">But a storm is blowing in from Paradise; it has got caught in his wings with such a violence that the angel can no longer close them. </p>  
+        <div class="page"><br><br><br><p class="caption">But a storm is blowing in from Paradise; it has got caught in his wings with such a violence that the angel can no longer close them. </p>  
         </div>
 
-        <div class="page"><br><br><br><br><p class="caption">The storm irresistibly propels him into the future to which his back is turned, while the pile of debris before him grows skyward. </p>  
+        <div class="page"><br><br><br><p class="caption">The storm irresistibly propels him into the future to which his back is turned, while the pile of debris before him grows skyward. </p>  
         </div>
 
-        <div class="page"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><p class="caption">This storm is what we call progress.</p>  
+        <div class="page"><br><br><br><p class="caption">This storm is what we call progress.</p>  
         </div>
 
       </div>
